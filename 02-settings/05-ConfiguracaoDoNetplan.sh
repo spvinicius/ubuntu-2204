@@ -97,7 +97,7 @@ network:
   ethernets:
     enp0s3:
       dhcp4: false
-      addresses: [10.26.44.XXX/24]
+      addresses: [10.26.44.225/24]
       gateway4: 10.26.44.1
       nameservers:
         addresses: [8.8.8.8, 8.8.4.4]
@@ -119,8 +119,8 @@ sudo resolvectl
 # Adicionando as informações de pesquisa de IP e nome no servidor no arquivo hosts
 sudo vim /etc/hosts
 	INSERT
-		127.0.0.1     wsseunome.senac.intra     wsseunome
-		10.26.44.XXX  wsseunome.senac.intra     wsseunome
+		127.0.0.1     wsvinicius.senac.intra     wsseunome
+		10.26.44.225  wsvinicius.senac.intra     wsseunome
 	
 	#salvar e sair do arquivo
 	ESC SHIFT : x <Enter>
