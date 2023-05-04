@@ -84,16 +84,16 @@ web NCSA HTTPd criado por Rob McCool.
 	cd /var/www/html
 	
 		#opção do comando mkdir: -v (verbose)
-		sudo mkdir -v teste
+		sudo mkdir -v test
 		
 		#opção do comando chmod: -v (verbose), 775 (User=RWX,Group=RWX,Other=R-X)
-		sudo chmod -v 775 teste/
+		sudo chmod -v 775 test/
 		
 		#opção do comando chown: -v (verbose), root (User), . (separate), www-date (group)
-		sudo chown -v root.www-data teste/
+		sudo chown -v root.www-data test/
 		
 		#acessando o diretório criado
-		cd teste
+		cd test
 
 #07_ Criando páginas HTML e PHP para testar o Apache2 Server<br>
 
