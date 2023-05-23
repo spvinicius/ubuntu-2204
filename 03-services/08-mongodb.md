@@ -30,7 +30,7 @@ NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas.
 	sudo apt install git vim build-essential software-properties-common gnupg apt-transport-https ca-certificates
 	
 	#opção do comando dpkg: -i (install)
-	wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.17_amd64.deb
+	wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.18_amd64.deb
 	sudo dpkg -i libssl*.deb
 
 #02_ Baixando e instalando a Chave GPG do MongoDB Server<br>
